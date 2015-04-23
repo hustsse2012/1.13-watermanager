@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:background="#00BFFF" >
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:text="@string/watermanager"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_weight="3"/>
+        
+        <ImageButton 
+            android:id="@+id/ibt_bell"
+            android:layout_width="0dp"
+            android:layout_gravity="end"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_bell_normal"
+            android:contentDescription="@string/nu"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"/>
+        
+    </LinearLayout>
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   		<FrameLayout 
+        	android:id="@+id/content"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent">
+    	</FrameLayout>
+    	
+   		<ImageView 
+   		    android:layout_width="match_parent"
+   		    android:layout_height="1dp"
+   		    android:src="#b4b3b3"
+   		    android:layout_gravity="bottom"
+   		    android:layout_marginBottom="42dp"/>
+
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="42dp"
+        	android:background="#ffffff"
+        	android:layout_gravity="bottom"
+        	android:orientation="horizontal" >
+
+        	<ImageButton
+            	android:id="@+id/Bt_Mes"
+            	style="android:attr/buttonBarButtonStyle"
+            	android:layout_width="0dp"
+            	android:layout_height="match_parent"
+            	android:layout_weight="1"
+            	android:background="@android:color/transparent"
+            	android:contentDescription="@string/nu"
+            	android:src="@drawable/m_btn_mes" />
+
+        	<ImageButton
+            	android:id="@+id/Bt_Water"
+            	style="android:attr/buttonBarButtonStyle"
+            	android:layout_width="0dp"
+            	android:layout_height="match_parent"
+            	android:layout_weight="1"
+            	android:background="@android:color/transparent"
+            	android:contentDescription="@string/nu"
+            	android:src="@drawable/m_btn_water" />
+
+        	<ImageButton
+            	android:id="@+id/Bt_Set"
+            	style="android:attr/buttonBarButtonStyle"
+            	android:layout_width="10dp"
+            	android:layout_height="match_parent"
+            	android:layout_weight="1"
+            	android:background="@android:color/transparent"
+            	android:contentDescription="@string/nu"
+            	android:src="@drawable/btn_setting_selected" />
+    	</LinearLayout>	</FrameLayout>
+    
+</LinearLayout>

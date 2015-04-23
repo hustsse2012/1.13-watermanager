@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WaterManager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="watermanager">水管家</string>
+    <string name="mes">通知</string>
+    <string name="water">打水</string>
+    <string name="set">设置</string>
+    <string name="nu"></string>
+    <string name="data">2015/4/1</string>
+    <string name="water_mes">停水通知</string>
+    <string name="elec_mes">停电通知</string>
+    <string name="mes_content">接到武汉市水务集团通知，因配合市政府修建水管道，定于珞瑜路，届时，华中科技大学等地区均无水，请做好准备</string>
+    <string name="title_activity_watermes">WatermesActivity</string>
+    <string name="water_mes_content">接到武汉市水务集团通知，因配合市政建设施工进行水管道改造，定于2015年4月1日傍晚22时至2日下午18时，洪山珞瑜路、瑜伽湖路、文苑路至光谷三路移动沿线水压下降或无水。届时，华中科技大学个大楼、学生宿舍、食堂、家属区均无水、请学校与各单位和家属做好停水准备。</string>
+    <string name="title_activity_logo">LogoActivity</string>
+
+</resources>
